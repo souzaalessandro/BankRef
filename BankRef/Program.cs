@@ -12,8 +12,9 @@ namespace BankRef
         static void Main(string[] args)
         {
 
-            var urlApplication = new string[]{"http://localhost:5341"};
+            var urlApplication = new string[]{"http://localhost:5341/"};
             var webApp = new WepAppication(urlApplication);
+            webApp.Initiallize();
 
 
         }
